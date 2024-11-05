@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using pragueParkingV2.Core.Models;
+﻿using pragueParkingV2.Core.Models;
 using PragueParkingV2.Core.Services;
 
 [TestClass]
@@ -50,16 +49,11 @@ public class ParkingGarageTests
     [TestMethod]
     public void TestRemoveVehicle_NotFound()
     {
-        // Försökwe att ta bort ett fordon som inte finns
+        // Försöker att ta bort ett fordon som inte finns
         bool result = garage.RemoveVehicle("XYZ789");
 
         Assert.IsFalse(result, "Expected removal to fail for non-existent vehicle.");
     }
 
-    [TestMethod]
-    public void TestDisplayGarageMap()
-    {
-        // Detta kan vara svårt att testa direkt eftersom det skriver till konsolen
-        garage.DisplayGarageMap(); 
-    }
+    
 }

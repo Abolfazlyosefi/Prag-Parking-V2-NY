@@ -4,7 +4,7 @@
     {
         public string LicensePlate { get; set; }
         public DateTime ParkingTime { get; set; }
-        public string VehicleType { get; set; } // T.ex. "Car" eller "Motorcycle"
+        public string VehicleType { get; set; } 
 
         public ParkedVehicle() { }
 

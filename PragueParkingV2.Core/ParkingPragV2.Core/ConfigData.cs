@@ -1,8 +1,4 @@
-﻿using pragueParkingV2.Core.Services;
-using System.Collections.Generic;
-
-
-namespace PragueParkingV2.Core.Services
+﻿namespace PragueParkingV2.Core.Services
 {
     public class ConfigData
     {

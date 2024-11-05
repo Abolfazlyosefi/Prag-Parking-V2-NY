@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace pragueParkingV2.Core.Models
+﻿namespace pragueParkingV2.Core.Models
 {
     public class Pricing
     {
